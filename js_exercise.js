@@ -27,10 +27,10 @@
 //     if (service === "good") {
 //         tip = bill * 0.2;
 //     }
-//     else if (service == "fair") {
+//     else if (service === "fair") {
 //         tip = bill * .15;
 //     }
-//     else if (service == "bad") {
+//     else if (service === "bad") {
 //         tip = bill * .1;
 //     }
 //     return tip;
@@ -46,10 +46,10 @@
 //     if (service === "good") {
 //         tip = bill * 0.2;
 //     }
-//     else if (service == "fair") {
+//     else if (service === "fair") {
 //         tip = bill * .15;
 //     }
-//     else if (service == "bad") {
+//     else if (service === "bad") {
 //         tip = bill * .1;
 //     }
 //     return tip + bill;
@@ -63,10 +63,10 @@ function splitAmount(bill, service, numbers) {
     if (service === "good") {
         tip = bill * 0.2;
     }
-    else if (service == "fair") {
+    else if (service === "fair") {
         tip = bill * .15;
     }
-    else if (service == "bad") {
+    else if (service === "bad") {
         tip = bill * .1;
     }
     return (tip + bill) / numbers;
